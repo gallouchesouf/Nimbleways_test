@@ -1,0 +1,67 @@
+{
+    "source": "mockoon:1.16.0",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "f2026200-e4d3-4c3c-9646-c9a2acb4f3f5",
+                "lastMigration": 18,
+                "name": "Interview",
+                "endpointPrefix": "",
+                "latency": 0,
+                "port": 3001,
+                "hostname": "0.0.0.0",
+                "routes": [
+                    {
+                        "uuid": "1baf1caf-37e0-444b-b329-f9874c684e3d",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "",
+                        "responses": [
+                            {
+                                "uuid": "15332343-c225-4478-bb97-539329f1abaa",
+                                "body": "{\n  \"startDate\": \"2023/01/01\"\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "date",
+                "proxyRemovePrefix": false,
+                "https": false,
+                "cors": false,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
